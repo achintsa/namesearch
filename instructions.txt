@@ -1,0 +1,33 @@
+#install flask
+http://flask.pocoo.org/docs/0.11/installation/
+#for ubuntu
+$ sudo apt-get install python-virtualenv
+
+$ mkdir myproject
+$ cd myproject
+$ virtualenv venv
+New python executable in venv/bin/python
+Installing setuptools, pip............done.
+
+#ubuntu
+$ . venv/bin/activate
+
+#run app
+
+$ export FLASK_APP=hello.py
+$ flask run
+ * Running on http://127.0.0.1:5000/
+
+
+
+#
+sudo apt-get install mysql-server
+<set username password>
+sudo apt-get install libmysqlclient-dev
+
+#mysql
+pip install flask-mysqldb
+
+
+mysql -u root -p
+<password here>
