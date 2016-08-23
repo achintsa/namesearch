@@ -6,7 +6,7 @@ I made this app on Ubuntu 14.04
 python version 2.7.11 
 flask version latest stable release as in August 2016 (0.11.x)
 
-# First create MySQL database
+Database related Installations:
 
 # Install MySQL server and related libraries
 $ sudo apt-get install mysql-server
@@ -19,8 +19,10 @@ $ pip install flask-mysqldb
 
 $ mysql -u root -p
  <password here>
+ 
+# First create MySQL database
 
-#run file named sampledb.py 
+Run file named sampledb.py 
 This would create the db of all permutation of firstnames.out and lastnames.out
 
 <Important>
