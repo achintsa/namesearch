@@ -23,7 +23,8 @@ $ mysql -u root -p
 #run file named sampledb.py 
 This would create the db of all permutation of firstnames.out and lastnames.out
 
-# Now instructions to make python server endpoint to enable a user to search the database using firstname and lastname
+<Important>
+Now instructions to make python server endpoint to enable a user to search the database using firstname and lastname
 
 
 # Firstly install virtualenv
@@ -38,7 +39,6 @@ $ virtualenv venv
 $ New python executable in venv/bin/python
 Installing setuptools, pip............done.
 
-#ubuntu
 $ . venv/bin/activate
 
 #run app
