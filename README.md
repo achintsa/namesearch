@@ -2,9 +2,9 @@
 This is a database connect app made with python and flask which can be used to search names from database.
 Please read instructions.txt for full installation and related details to run on your end.
 
-# I made this app on Ubuntu 14.04
-# python version 2.7.11
-# flask version latest stable release as in August 2016 (0.11.x)
+I made this app on Ubuntu 14.04
+python version 2.7.11 
+flask version latest stable release as in August 2016 (0.11.x)
 
 # First create MySQL database
 
@@ -27,7 +27,7 @@ This would create the db of all permutation of firstnames.out and lastnames.out
 
 
 # Firstly install virtualenv
-# Secondly install flask
+Secondly install flask
 http://flask.pocoo.org/docs/0.11/installation/
 #for ubuntu
 $ sudo apt-get install python-virtualenv
@@ -35,7 +35,7 @@ $ sudo apt-get install python-virtualenv
 $ mkdir namesearch
 $ cd namesearch
 $ virtualenv venv
-$New python executable in venv/bin/python
+$ New python executable in venv/bin/python
 Installing setuptools, pip............done.
 
 #ubuntu
